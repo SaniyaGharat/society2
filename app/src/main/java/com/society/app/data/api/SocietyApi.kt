@@ -157,10 +157,4 @@ interface SocietyApi {
 
     @GET("api/residents")
     suspend fun getResidents(): Response<List<Resident>>
-
-    @GET("api/amenities")
-    suspend fun getAmenities(): Response<List<Amenity>>
-
-    @POST("api/amenities/book")
-    suspend fun bookAmenity(@Body bookingRequest: Map<String, String>): Response<Void>
 }
