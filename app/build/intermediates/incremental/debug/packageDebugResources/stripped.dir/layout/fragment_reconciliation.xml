@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reconciliation"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnUploadStatement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulate Bank Statement Upload (JSON)"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvTotalProcessed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Processed: 0"/>
+
+        <TextView
+            android:id="@+id/tvMatched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matched: 0"
+            android:textColor="@android:color/holo_green_dark"/>
+
+        <TextView
+            android:id="@+id/tvUnmatched"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unmatched: 0"
+            android:textColor="@android:color/holo_red_dark"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unmatched Transactions:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUnmatched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

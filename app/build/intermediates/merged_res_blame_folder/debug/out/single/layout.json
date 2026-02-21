@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_forecast.xml",
+        "source": "com.society.app-main-50:/layout/fragment_forecast.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_announcement_detail.xml",
+        "source": "com.society.app-main-50:/layout/fragment_announcement_detail.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_integration.xml",
+        "source": "com.society.app-main-50:/layout/fragment_integration.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_resident_list.xml",
+        "source": "com.society.app-main-50:/layout/fragment_resident_list.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_login.xml",
+        "source": "com.society.app-main-50:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_reports.xml",
+        "source": "com.society.app-main-50:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_reconciliation.xml",
+        "source": "com.society.app-main-50:/layout/fragment_reconciliation.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_search.xml",
+        "source": "com.society.app-main-50:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_monthly_history.xml",
+        "source": "com.society.app-main-50:/layout/fragment_monthly_history.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_treasurer_dashboard.xml",
+        "source": "com.society.app-main-50:/layout/fragment_treasurer_dashboard.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_bulk_payment.xml",
+        "source": "com.society.app-main-50:/layout/fragment_bulk_payment.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_complaints_list.xml",
+        "source": "com.society.app-main-50:/layout/fragment_complaints_list.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/item_complaint.xml",
+        "source": "com.society.app-main-50:/layout/item_complaint.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_penalty.xml",
+        "source": "com.society.app-main-50:/layout/fragment_penalty.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/item_ledger_entry.xml",
+        "source": "com.society.app-main-50:/layout/item_ledger_entry.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_expense.xml",
+        "source": "com.society.app-main-50:/layout/fragment_expense.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_payment_history.xml",
+        "source": "com.society.app-main-50:/layout/fragment_payment_history.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_visitor_list.xml",
+        "source": "com.society.app-main-50:/layout/fragment_visitor_list.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "com.society.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_balance_list.xml",
+        "source": "com.society.app-main-50:/layout/fragment_balance_list.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_dashboard.xml",
+        "source": "com.society.app-main-50:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_register.xml",
+        "source": "com.society.app-main-50:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_expense_analysis.xml",
+        "source": "com.society.app-main-50:/layout/fragment_expense_analysis.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/item_announcement.xml",
+        "source": "com.society.app-main-50:/layout/item_announcement.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_resident_profile.xml",
+        "source": "com.society.app-main-50:/layout/fragment_resident_profile.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_recurring_expense.xml",
+        "source": "com.society.app-main-50:/layout/fragment_recurring_expense.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_role_demo.xml",
+        "source": "com.society.app-main-50:/layout/fragment_role_demo.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/item_visitor.xml",
+        "source": "com.society.app-main-50:/layout/item_visitor.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_pre_approve_visitor.xml",
+        "source": "com.society.app-main-50:/layout/fragment_pre_approve_visitor.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_announcements_list.xml",
+        "source": "com.society.app-main-50:/layout/fragment_announcements_list.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_optimization.xml",
+        "source": "com.society.app-main-50:/layout/fragment_optimization.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/fragment_add_complaint.xml",
+        "source": "com.society.app-main-50:/layout/fragment_add_complaint.xml"
+    },
+    {
+        "merged": "com.society.app-mergeDebugResources-47:/layout/item_resident.xml",
+        "source": "com.society.app-main-50:/layout/item_resident.xml"
+    }
+]

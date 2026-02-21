@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.society.app.ui.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.society.app.ui.auth.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.society.app.ui.dashboard.DashboardFragment"
+        android:label="Dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_complaintsListFragment"
+            app:destination="@id/complaintsListFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_announcementsListFragment"
+            app:destination="@id/announcementsListFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_residentListFragment"
+            app:destination="@id/residentListFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_visitorListFragment"
+            app:destination="@id/visitorListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/complaintsListFragment"
+        android:name="com.society.app.ui.complaints.ComplaintsListFragment"
+        android:label="My Complaints"
+        tools:layout="@layout/fragment_complaints_list">
+        <action
+            android:id="@+id/action_complaintsListFragment_to_addComplaintFragment"
+            app:destination="@id/addComplaintFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addComplaintFragment"
+        android:name="com.society.app.ui.complaints.AddComplaintFragment"
+        android:label="Add Complaint"
+        tools:layout="@layout/fragment_add_complaint" />
+
+    <fragment
+        android:id="@+id/announcementsListFragment"
+        android:name="com.society.app.ui.announcements.AnnouncementsListFragment"
+        android:label="Announcements"
+        tools:layout="@layout/fragment_announcements_list">
+        <action
+            android:id="@+id/action_announcementsListFragment_to_announcementDetailFragment"
+            app:destination="@id/announcementDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/announcementDetailFragment"
+        android:name="com.society.app.ui.announcements.AnnouncementDetailFragment"
+        android:label="Announcement Detail"
+        tools:layout="@layout/fragment_announcement_detail" />
+
+    <fragment
+        android:id="@+id/residentListFragment"
+        android:name="com.society.app.ui.directory.ResidentListFragment"
+        android:label="Resident Directory"
+        tools:layout="@layout/fragment_resident_list" />
+
+    <fragment
+        android:id="@+id/visitorListFragment"
+        android:name="com.society.app.ui.visitors.VisitorListFragment"
+        android:label="Visitor Log"
+        tools:layout="@layout/fragment_visitor_list">
+        <action
+            android:id="@+id/action_visitorListFragment_to_preApproveVisitorFragment"
+            app:destination="@id/preApproveVisitorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/preApproveVisitorFragment"
+        android:name="com.society.app.ui.visitors.PreApproveVisitorFragment"
+        android:label="Pre-Approve Visitor"
+        tools:layout="@layout/fragment_pre_approve_visitor" />
+
+
+
+    <!-- Finance Fragments -->
+    <fragment
+        android:id="@+id/treasurerDashboardFragment"
+        android:name="com.society.app.ui.dashboard.TreasurerDashboardFragment"
+        android:label="Treasurer Dashboard"
+        tools:layout="@layout/fragment_treasurer_dashboard"/>
+
+    <fragment
+        android:id="@+id/paymentHistoryFragment"
+        android:name="com.society.app.ui.finance.PaymentHistoryFragment"
+        android:label="Ledger History"
+        tools:layout="@layout/fragment_payment_history"/>
+
+    <fragment
+        android:id="@+id/recurringExpenseFragment"
+        android:name="com.society.app.ui.finance.RecurringExpenseFragment"
+        android:label="Recurring Expenses"
+        tools:layout="@layout/fragment_recurring_expense"/>
+
+    <fragment
+        android:id="@+id/reconciliationFragment"
+        android:name="com.society.app.ui.finance.ReconciliationFragment"
+        android:label="Payment Reconciliation"
+        tools:layout="@layout/fragment_reconciliation"/>
+
+    <fragment
+        android:id="@+id/penaltyFragment"
+        android:name="com.society.app.ui.finance.PenaltyFragment"
+        android:label="Penalty &amp; Late Fees"
+        tools:layout="@layout/fragment_penalty"/>
+
+    <fragment
+        android:id="@+id/expenseFragment"
+        android:name="com.society.app.ui.finance.ExpenseFragment"
+        android:label="Expense Tracker"
+        tools:layout="@layout/fragment_expense"/>
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.society.app.ui.finance.ReportsFragment"
+        android:label="Financial Reports"
+        tools:layout="@layout/fragment_reports"/>
+
+    <fragment
+        android:id="@+id/forecastFragment"
+        android:name="com.society.app.ui.finance.ForecastFragment"
+        android:label="Financial Forecast"
+        tools:layout="@layout/fragment_forecast"/>
+
+    <fragment
+        android:id="@+id/expenseAnalysisFragment"
+        android:name="com.society.app.ui.finance.ExpenseAnalysisFragment"
+        android:label="Expense Analysis"
+        tools:layout="@layout/fragment_expense_analysis"/>
+
+    <fragment
+        android:id="@+id/residentProfileFragment"
+        android:name="com.society.app.ui.directory.ResidentProfileFragment"
+        android:label="Resident Finance Profile"
+        tools:layout="@layout/fragment_resident_profile"/>
+
+    <fragment
+        android:id="@+id/balanceListFragment"
+        android:name="com.society.app.ui.finance.BalanceListFragment"
+        android:label="All Balances"
+        tools:layout="@layout/fragment_balance_list"/>
+
+    <fragment
+        android:id="@+id/monthlyHistoryFragment"
+        android:name="com.society.app.ui.finance.MonthlyHistoryFragment"
+        android:label="Monthly History"
+        tools:layout="@layout/fragment_monthly_history"/>
+
+    <fragment
+        android:id="@+id/bulkPaymentFragment"
+        android:name="com.society.app.ui.finance.BulkPaymentFragment"
+        android:label="Bulk Payments"
+        tools:layout="@layout/fragment_bulk_payment"/>
+
+    <fragment
+        android:id="@+id/roleDemoFragment"
+        android:name="com.society.app.ui.auth.RoleDemoFragment"
+        android:label="Access Control Demo"
+        tools:layout="@layout/fragment_role_demo"/>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.society.app.ui.finance.SearchFragment"
+        android:label="Advanced Search"
+        tools:layout="@layout/fragment_search"/>
+
+    <fragment
+        android:id="@+id/optimizationFragment"
+        android:name="com.society.app.ui.finance.OptimizationFragment"
+        android:label="Collection Optimization"
+        tools:layout="@layout/fragment_optimization"/>
+
+    <fragment
+        android:id="@+id/integrationFragment"
+        android:name="com.society.app.ui.complaints.IntegrationFragment"
+        android:label="Complaints &amp; Expenses"
+        tools:layout="@layout/fragment_integration"/>
+
+</navigation>

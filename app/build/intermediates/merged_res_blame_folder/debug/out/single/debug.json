@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_recurring_expense.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_recurring_expense.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_activity_main.xml.flat",
+        "source": "com.society.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_item_announcement.xml.flat",
+        "source": "com.society.app-main-50:/layout/item_announcement.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_penalty.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_penalty.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.society.app-main-50:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.society.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_integration.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_integration.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_item_visitor.xml.flat",
+        "source": "com.society.app-main-50:/layout/item_visitor.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_item_resident.xml.flat",
+        "source": "com.society.app-main-50:/layout/item_resident.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_reconciliation.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_reconciliation.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_add_complaint.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_add_complaint.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.society.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_search.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_resident_list.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_resident_list.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_dashboard.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_item_complaint.xml.flat",
+        "source": "com.society.app-main-50:/layout/item_complaint.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_login.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_optimization.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_optimization.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_monthly_history.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_monthly_history.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_treasurer_dashboard.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_treasurer_dashboard.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_payment_history.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_payment_history.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.society.app-main-50:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_register.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_expense_analysis.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_expense_analysis.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_pre_approve_visitor.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_pre_approve_visitor.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_balance_list.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_balance_list.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
+        "source": "com.society.app-main-50:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_item_ledger_entry.xml.flat",
+        "source": "com.society.app-main-50:/layout/item_ledger_entry.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_role_demo.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_role_demo.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_bulk_payment.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_bulk_payment.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_expense.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_expense.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/navigation_nav_graph.xml.flat",
+        "source": "com.society.app-main-50:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_reports.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_announcement_detail.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_announcement_detail.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_announcements_list.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_announcements_list.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_resident_profile.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_resident_profile.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_complaints_list.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_complaints_list.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_forecast.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_forecast.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/xml_backup_rules.xml.flat",
+        "source": "com.society.app-main-50:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.society.app-merged_res-48:/layout_fragment_visitor_list.xml.flat",
+        "source": "com.society.app-main-50:/layout/fragment_visitor_list.xml"
+    }
+]
